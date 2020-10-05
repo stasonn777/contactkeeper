@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://caontact_db:caontact_db@contectkeeper.c1hfs.mongodb.net/ContectKeeper?retryWrites=true&w=majority"
+}
