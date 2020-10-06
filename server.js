@@ -6,7 +6,7 @@ const app = express()
 //Connect DB
 connectDB()
 //Test git sincro
-console.log('test')
+console.log('sdcs')
 app.get('/', (req, res) => res.json({ msg: 'Wellcome to my first app' }))
 
 //Define Routes
