@@ -5,7 +5,7 @@ const app = express()
 
 //Connect DB
 connectDB()
-//Test git sinc
+//Test git sincro
 
 app.get('/', (req, res) => res.json({ msg: 'Wellcome to my first app' }))
 
