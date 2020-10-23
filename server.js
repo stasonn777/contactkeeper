@@ -6,7 +6,10 @@ const app = express()
 //Connect DB
 connectDB()
 
-app.get('/', (req, res) => res.json({ msg: 'Wellcome to my first app' }))
+//Init MiddleWare
+app.use(express.json({ extended: false }))
+
+app.get('/', (req, res) => res.json({ msg: 'Wellcome to my first API' }))
 
 //Define Routes
 app.use('/api/users', require('./routes/users'))
